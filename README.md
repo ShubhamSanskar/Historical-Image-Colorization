@@ -8,7 +8,6 @@ This project focuses on colorizing historical grayscale images using a deep lear
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Training](#training)
-- [Evaluation](#evaluation)
 
 
 ## Installation
@@ -45,7 +44,3 @@ history = model.fit(x_train_gray, x_train, epochs=100, batch_size=64, validation
 
 print(f'Test Loss: {loss}')
 ```
-
-## Results
-
-Include here any images or visualizations showing the results of the colorization process.
