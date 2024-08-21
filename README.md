@@ -1,17 +1,3 @@
-1. **Project Purpose**: The notebook is focused on historical image colorization using a deep learning approach, likely based on the U-Net architecture. The project converts images to grayscale and then applies a model to colorize them.
-
-2. **Dependencies**: The project requires several Python libraries, including NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras, and OpenCV.
-
-3. **Model Architecture**: The U-Net model is defined in the notebook, with layers structured to perform both down-sampling (encoding) and up-sampling (decoding) of images.
-
-4. **Training Process**: The model is trained on the CIFAR-10 dataset, with grayscale images as input and the original color images as the target output. The notebook includes steps for data preprocessing, model training, and evaluation.
-
-### Draft README
-
-Here's a draft README for your GitHub repository:
-
----
-
 # Historical Image Colorization
 
 This project focuses on colorizing historical grayscale images using a deep learning approach based on the U-Net architecture. The model is trained to map grayscale images to their corresponding color images.
@@ -58,12 +44,6 @@ The model is trained on the CIFAR-10 dataset, which contains 60,000 32x32 color 
 history = model.fit(x_train_gray, x_train, epochs=100, batch_size=64, validation_data=(x_val_gray, x_val))
 ```
 
-## Evaluation
-
-The trained model is evaluated on the test set, with the loss reported as follows:
-
-```python
-loss = model.evaluate(x_test_gray, x_test)
 print(f'Test Loss: {loss}')
 ```
 
