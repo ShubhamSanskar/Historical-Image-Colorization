@@ -9,8 +9,7 @@ This project focuses on colorizing historical grayscale images using a deep lear
 - [Model Architecture](#model-architecture)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Results](#results)
-- [License](#license)
+
 
 ## Installation
 
