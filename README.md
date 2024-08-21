@@ -1,9 +1,3 @@
-I can help you create a README for your project. Let's start by extracting key details from your Jupyter Notebook, such as the purpose of the project, the installation steps, usage instructions, and any other relevant information.
-
-I'll begin by reviewing the content of your notebook.
-
-Based on the initial content of the notebook, it appears that this project involves the following:
-
 1. **Project Purpose**: The notebook is focused on historical image colorization using a deep learning approach, likely based on the U-Net architecture. The project converts images to grayscale and then applies a model to colorize them.
 
 2. **Dependencies**: The project requires several Python libraries, including NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras, and OpenCV.
